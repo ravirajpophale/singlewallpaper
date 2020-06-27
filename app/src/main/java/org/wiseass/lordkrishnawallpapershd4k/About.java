@@ -19,6 +19,8 @@ import java.util.ArrayList;
 /**
  * Created by Sanved on 27-08-2016.
  */
+
+
 public class About extends AppCompatActivity {
 
     private TextView link, version, about;
