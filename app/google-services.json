@@ -1,40 +1,100 @@
 {
   "project_info": {
-    "project_number": "321913094707",
-    "firebase_url": "https://material-wallpapers-hd-4-39a01.firebaseio.com",
-    "project_id": "material-wallpapers-hd-4-39a01",
-    "storage_bucket": "material-wallpapers-hd-4-39a01.appspot.com"
+    "project_number": "95727323531",
+    "firebase_url": "https://d-wallpapers-hd-4k-9db43.firebaseio.com",
+    "project_id": "d-wallpapers-hd-4k-9db43",
+    "storage_bucket": "d-wallpapers-hd-4k-9db43.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:321913094707:android:7c9a67ab41a140f2",
+        "mobilesdk_app_id": "1:95727323531:android:d445e352632d5a56",
         "android_client_info": {
-          "package_name": "org.wiseass.lordkrishnawallpapershd4k"
+          "package_name": "org.wiseass.emojiwallpapershd4k"
         }
       },
       "oauth_client": [
         {
-          "client_id": "321913094707-qad4f3h3ekapcvpb6uhpt5untvv501t0.apps.googleusercontent.com",
+          "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBQ_papmo7N0zRJb166XrehGiNFcx8tFoY"
+          "current_key": "AIzaSyCOQyeXp1gxrDFtZyHWb-sVl0jPHK61GmE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "321913094707-qad4f3h3ekapcvpb6uhpt5untvv501t0.apps.googleusercontent.com",
+              "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
       },
-      "admob_app_id": "ca-app-pub-4695657745303784~8759783159"
+      "admob_app_id": "ca-app-pub-4695657745303784~3595387704"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95727323531:android:e29d2086d78713d2",
+        "android_client_info": {
+          "package_name": "org.wiseass.lovewallpapershd4k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOQyeXp1gxrDFtZyHWb-sVl0jPHK61GmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4695657745303784~2357084388"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95727323531:android:ace75d0165e79160",
+        "android_client_info": {
+          "package_name": "org.wiseass.threedwallpapershd4k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOQyeXp1gxrDFtZyHWb-sVl0jPHK61GmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95727323531-macfmhjb8bi4rrjsbm6vnlo9kfbofaho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4695657745303784~2473636477"
     }
   ],
   "configuration_version": "1"

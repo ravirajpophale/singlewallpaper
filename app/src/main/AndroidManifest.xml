@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.wiseass.lordkrishnawallpapershd4k">
+    package="org.wiseass.emojiwallpapershd4k">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SET_WALLPAPER"/>
@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="org.wiseass.lordkrishnawallpapershd4k.MyApp"
+        android:name="org.wiseass.emojiwallpapershd4k.MyApp"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -24,7 +24,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id"/>
 
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.StartScreen">
+        <activity android:name="org.wiseass.emojiwallpapershd4k.StartScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,18 +32,25 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.ListLoader" android:windowSoftInputMode="stateHidden" ></activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.AboutCopyright"></activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.ActionScreen" android:theme="@style/AppTheme2"></activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.SearchScreen"> </activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.About"> </activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.ExitActivity"> </activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.PhotoWindow" android:screenOrientation="portrait" ></activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.FavoriteActivity"> </activity>
-        <activity android:name="org.wiseass.lordkrishnawallpapershd4k.PrivacyPolicy"></activity>
+        <activity
+            android:name="org.wiseass.emojiwallpapershd4k.ListLoader"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="org.wiseass.emojiwallpapershd4k.AboutCopyright" />
+        <activity
+            android:name="org.wiseass.emojiwallpapershd4k.ActionScreen"
+            android:theme="@style/AppTheme2" />
+        <activity android:name="org.wiseass.emojiwallpapershd4k.SearchScreen"> </activity>
+        <activity android:name="org.wiseass.emojiwallpapershd4k.About"> </activity>
+        <activity android:name="org.wiseass.emojiwallpapershd4k.ExitActivity"> </activity>
+        <activity
+            android:name="org.wiseass.emojiwallpapershd4k.PhotoWindow"
+            android:screenOrientation="portrait" />
+        <activity android:name="org.wiseass.emojiwallpapershd4k.FavoriteActivity"> </activity>
+        <activity android:name="org.wiseass.emojiwallpapershd4k.PrivacyPolicy" />
 
-        <receiver android:name="org.wiseass.lordkrishnawallpapershd4k.AlertRec"
-            android:enabled="true"></receiver>
+        <receiver
+            android:name="org.wiseass.emojiwallpapershd4k.AlertRec"
+            android:enabled="true" />
 
         <!-- Cropper -->
         <activity
@@ -67,7 +74,7 @@
             android:resource="@drawable/mini" />
 
         <service
-            android:name="org.wiseass.lordkrishnawallpapershd4k.MyFirebaseMessagingService"
+            android:name="org.wiseass.emojiwallpapershd4k.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
